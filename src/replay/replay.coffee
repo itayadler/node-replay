@@ -13,7 +13,7 @@ recorder          = require("./recorder")
 MODES = ["bloody", "cheat", "record", "replay"]
 
 # Headers that are recorded/matched during replay.
-MATCH_HEADERS = [/^accept/, /^authorization/, /^body/, /^content-type/, /^host/, /^if-/, /^x-/]
+MATCH_HEADERS = [/^accept/, /^authorization/, /^body/, /^content-type/, /^host/, /^if-/]
 
 
 # Instance properties:
